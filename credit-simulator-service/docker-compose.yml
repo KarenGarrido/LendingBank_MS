@@ -1,0 +1,32 @@
+
+services:
+  app:
+    container_name: "credit-simulator-container"
+    build: .
+    ports:
+      - "8001:8001"
+    environment:
+      - DATABASE_URL = jdbc:mysql://localhost:3306/credit-simulator-schema
+      - DATABASE_USERNAME = root
+      - DATABASE_PASSWORD = lenowo
+    depends_on:
+      - mysqldb
+
+  mysqldb:
+    container_name: "mysqldb"
+    image: "mysql:latest"
+    ports:
+      - "3306:3306"
+    volumes:
+      #- ./mysql:/var/lib/mysql
+      - mysql-data:/var/lib/mysql
+    environment:
+      MYSQL_DATABASE: "credit_simulator_schema"
+      MYSQL_USER: "root"
+      MYSQL_PASSWORD: "lenowo"
+      MYSQL_ROOT_PASSWORD: "lenowo"
+
+volumes:
+  mysql-data:
+    external: false
+#por defecto los volumeness no son externos, en caso de serlo debe especificar true y haberlo creado previamente

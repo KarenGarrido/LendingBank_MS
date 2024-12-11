@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: credit-simulator-service
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8081
+  datasource:
+    url: jdbc:mysql://localhost:3306/credit_simulator_schema
+    username: root
+    password: lenowo
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update

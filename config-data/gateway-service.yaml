@@ -6,7 +6,7 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      default-zone: http://localhost:8761/eureka
+      defaultZone: http://localhost:8761/eureka
   instance:
     hostname: localhost
 
@@ -17,15 +17,14 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: student-service
-          uri: lb://student-service
+        #Ruta para HU1: Simular Crédito
+        - id: credit-simulator-service
+          uri: lb://credit-simulator-service
           predicates:
-            - Path=/student/**
-        - id: book-service
-          uri: lb://book-service
+            - Path=/api/v1/creditSimulator/**
+        #Ruta para HU2: Registrar Usuario
+        - id: user-register-service
+          uri: lb://user-register-service
           predicates:
-            - Path=/book/**
-        - id: pet-service
-          uri: lb://pet-service
-          predicates:
-            - Path=/pet/**
+            - Path=//api/v1/bankUser/**
+        #Ruta para HU3: Solicitar crédito

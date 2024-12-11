@@ -5,33 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6658455-138f-46de-94d4-7faeb56bd9a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/credit-simulator-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/user-register-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-service.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../credit-simulator-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../credit-simulator-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../credit-simulator-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../credit-simulator-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eureka-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway-service/src/main/java/com/tutorial/gatewayservice/GatewayServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-service/src/main/java/com/tutorial/gatewayservice/GatewayServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user_register_service/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user_register_service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user_register_service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user_register_service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user_register_service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user_register_service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user_register_service/src/main/java/com/tingeso/user_register_service/Controllers/BankUserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user_register_service/src/main/java/com/tingeso/user_register_service/Entities/BankUserEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user_register_service/src/main/java/com/tingeso/user_register_service/Repositories/BankUserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user_register_service/src/main/java/com/tingeso/user_register_service/Services/BankUserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user_register_service/src/main/java/com/tingeso/user_register_service/UserRegisterServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user_register_service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user_register_service/src/test/java/com/tingeso/user_register_service/UserRegisterServiceApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +71,7 @@
       <workItem from="1733629700738" duration="31000" />
       <workItem from="1733843637818" duration="2520000" />
       <workItem from="1733846822471" duration="2318000" />
-      <workItem from="1733877313427" duration="3905000" />
+      <workItem from="1733877313427" duration="5216000" />
     </task>
     <servers />
   </component>

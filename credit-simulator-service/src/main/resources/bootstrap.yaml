@@ -2,6 +2,8 @@ spring:
   application:
     name: credit-simulator-service
   cloud:
+    compatibility-verifier:
+      enabled: false
     config:
       enabled: true
       uri: http://localhost:8081

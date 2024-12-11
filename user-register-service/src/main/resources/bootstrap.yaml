@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: user-register-service
+  cloud:
+    compatibility-verifier:
+      enabled: false
+    config:
+      enabled: true
+      uri: http://localhost:8081
+
+  jpa:
+    hibernate:
+      ddl-auto: update

@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f6658455-138f-46de-94d4-7faeb56bd9a8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../credit-simulator-service/src/main/java/com/tingeso/credit_simulator_service/Controllers/CreditSimulatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../credit-simulator-service/src/main/java/com/tingeso/credit_simulator_service/Controllers/CreditSimulatorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../credit-simulator-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../credit-simulator-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-register-service/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +73,7 @@
       <workItem from="1733629700738" duration="31000" />
       <workItem from="1733843637818" duration="2520000" />
       <workItem from="1733846822471" duration="2318000" />
-      <workItem from="1733877313427" duration="6870000" />
+      <workItem from="1733877313427" duration="7565000" />
     </task>
     <servers />
   </component>

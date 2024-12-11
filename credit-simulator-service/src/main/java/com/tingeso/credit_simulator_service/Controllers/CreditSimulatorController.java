@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+//http://localhost:8080/api/v1/creditSimulator/getAll
+//http://localhost:8080/api/v1/creditSimulator/100000000/20/4.5
 @RestController
 @RequestMapping("/api/v1/creditSimulator")
 public class CreditSimulatorController {

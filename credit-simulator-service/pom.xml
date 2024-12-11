@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.1.4</version>
+		<version>3.3.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tingeso</groupId>
@@ -79,7 +79,7 @@
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>2022.0.3</version> <!-- Versión compatible con Spring Boot 3.x -->
+				<version>2023.0.4</version> <!-- Versión compatible con Spring Boot 3.x -->
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
